@@ -11,4 +11,12 @@ function leapyear(year) {
   function woman(cpr){
     return cpr % 2 === 0;
   }
-  console.log(woman(cpr));
+  console.log("This is a woman : " + woman(cpr));
+
+  let x = 8 / 2 * (2 + 2);
+
+  console.log(x);
+
+  let y = 8 / 2 * 2 + 2;
+
+  console.log(y);
