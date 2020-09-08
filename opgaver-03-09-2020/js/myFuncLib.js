@@ -9,7 +9,7 @@ console.log(play());
 
 function playRoulette() {
     let x = Math.random();
-    x = Math.floor(x * 6 + 1);
+    x = Math.floor(x * 36 + 1);
     return x;
 };
 

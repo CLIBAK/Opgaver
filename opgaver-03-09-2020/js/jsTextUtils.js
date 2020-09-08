@@ -16,6 +16,7 @@ function last(s){
 console.log(last(s));
 
 //returns whatever is between the first and the last character of the string 
+
 function middle(s) {
         return s.slice(1, [s.length - 1]);;
 }
